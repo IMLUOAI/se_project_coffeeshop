@@ -41,7 +41,9 @@
               <a class="nav__link" href="#Recipes-Rec.">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation-book a table">Book a table</a>
+              <a class="nav__link" href="#reservation-book a table"
+                >Book a table</a
+              >
             </li>
             <li>
               <a class="nav__link" href="#about-contacts">Contacts</a>
@@ -63,14 +65,14 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__column header__column_content_hours">
-            <h2 class="header__column-heading">Hours:</h2>
-            <ul class="header__list">
-              <li class="header__list-item">Monday - Friday (10:00 - 19:00)</li>
-              <li class="header__list-item">
-                Saturday - Sunday (11:00 - 18:00)
-              </li>
-            </ul>
+          <div class="header__paragraph">
+            <p class="header__paragraph-item">Hours:</p>
+            <p class="header__paragraph-item">
+              Monday - Friday (10:00 - 19:00)
+            </p>
+            <p class="header__paragraph-item">
+              Saturday - Sunday (11:00 - 18:00)
+            </p>
           </div>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
@@ -84,9 +86,38 @@
             Check out some recipes we've collected for your home-brewing
             convenience
           </p>
-          <videos class="recipes__videos"></video>
-            <div class="recieps__iframe"></div>
-            <div class="recipes__video-caption"></div>
+          <div class="recipes__videos">
+            <div class="recieps__iframe">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?start=5"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Aeropress recipe</p>
+                <p>~5 min</p>
+              </div>
+            </div>
+            <div class="recieps__iframe">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?start=15"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>French press recipe</p>
+                <p>~15 min</p>
+              </div>
+            </div>
+          </div>
         </section>
         <section id="M" class="menu"></section>
         <section id="book a table" class="reservation"></section>
@@ -94,6 +125,6 @@
       </main>
       <footer class="footer"></footer>
     </div>
-    <script src="script.jss"></script>
+    <script src="script.js"></script>
   </body>
 </html>
