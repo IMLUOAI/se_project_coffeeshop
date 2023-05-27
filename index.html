@@ -119,10 +119,9 @@
             </div>
           </div>
         </section>
-
         <section class="reservation" id="reservation-book">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label" for="name">Name</label>
               <input
@@ -130,28 +129,29 @@
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Samuel Luo"
+                placeholder="Samuel lUO"
                 required
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <label class="form__label" for="number of guests">
+              <label class="form__label" for="numberofguests">
                 Number of guests
               </label>
               <input
                 class="form__input"
-                id="number of guests"
-                name="number of guests"
+                id="numberofguests"
+                name="numberofguests"
                 type="number"
                 placeholder="1-8"
                 required
               />
-              <label class="form__label" for="date & time">Date & time</label>
+              <label class="form__label" for="date&time">Date & time</label>
               <input
                 class="form__input"
                 type="datetime-local"
-                id="date & time"
+                id="date&time"
                 name="date & time"
+                required
               />
               <label class="form__label" for="email">Your email</label>
               <input
@@ -169,8 +169,10 @@
             <fieldset class="form__fieldset">
               <label class="form__label">
                 <input
-                  class="form__checkbox form__input_type_checkbox"
+                  class="form__checkbox form__checkbox_type_checkbox"
                   type="checkbox"
+                  id="Iagreewiththetermsofuse"
+                  name="I agree with the terms of use"
                 />I agree with the terms of use</label
               >
             </fieldset>
