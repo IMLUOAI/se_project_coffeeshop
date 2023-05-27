@@ -200,15 +200,118 @@
   padding: 0;
 }
 
+
+.reservation{
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: #D9E7FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+
+}
+
+.reservation__form {
+ border: 1px solid #838383;
+ margin: 0 auto;
+
+}
+
+.form__fieldset {
+  border: 1px solid #838383;
+
+}
+
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  display: flex;
+
+}
+
+.form__input {
+  background: #ffffff;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  max-width: 385px;
+  max-height: 60px;
+
+}
+
+.form__button {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  max-height: 60px;
+  max-width: 385px;
+  border-radius: 4px;
+  opacity: 100%;
+  transition: opacity .5s ease;
+  margin-top: 32px;
+  border: 1px solid #838383;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+
+.form__input::placeholder {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+
+}
+
+.form__checkbox[for="I agree with the terms of use"]{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 129px;
+  vertical-align: middle;
+  display: flex;
+
+}
+
+.form__input [type="checkbox"] {
+  margin-right: 12px;
+  border-radius: 2px;
+  width:20px;
+  height:20px;
+  vertical-align: middle;
+  background-color: #2f80ed;
+}
+
 .menu{
 
 
 }
-
-.reservation{
-
-}
-
 .about{
 
 

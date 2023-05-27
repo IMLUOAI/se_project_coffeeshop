@@ -119,8 +119,66 @@
             </div>
           </div>
         </section>
+
+        <section class="reservation" id="reservation-book">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Samuel Luo"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="number of guests">
+                Number of guests
+              </label>
+              <input
+                class="form__input"
+                id="number of guests"
+                name="number of guests"
+                type="number"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label" for="date & time">Date & time</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="date & time"
+                name="date & time"
+              />
+              <label class="form__label" for="email">Your email</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="samuel010117@gmail.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__checkbox" for="I agree with the terms of use"
+                ><input
+                  class="form__input form__input_type_checkbox"
+                  type="checkbox"
+                  id="I agree with the terms of use"
+                  name="I agree with the terms of use"
+                />I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
+        </section>
         <section id="menu-menu" class="menu"></section>
-        <section id="reservation-book" class="reservation"></section>
         <section id="about-contacts" class="about"></section>
       </main>
       <footer class="footer"></footer>
