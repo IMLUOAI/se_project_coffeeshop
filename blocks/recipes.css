@@ -1,0 +1,182 @@
+
+.recipes{
+  height: 100vh;
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.recipes__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-left: 80px;
+  max-width: 580px;
+  padding: 0;
+
+}
+
+.recipes__subtitle {
+  font-family: "Noto", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-left: 80px;
+  max-width: 438px;
+  color: #ffffff;
+  padding: 0;
+}
+
+.recipes__videos {
+  margin-top: 80px;
+  margin-bottom: 215px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.recipes__iframe {
+   width: 480px;
+   height: 273px;
+   border: 0;
+   display: flex;
+   margin: 0;
+}
+
+.recipes__video-caption {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.reservation{
+  height: 100vh;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #D9E7FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.reservation__form {
+ border: none;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.form {
+  margin: 0;
+}
+
+.form__fieldset {
+  border: none;
+}
+
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form__input {
+  background: #ffffff;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.form__button {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  margin-bottom: 32px;
+  height: 60px;
+  width: 385px;
+  border-radius: 4px;
+  opacity: 100%;
+  transition: opacity .5s ease;
+  border: none;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+
+.form__input::placeholder {
+  font-family: "Inter" ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  padding: 18px;
+}
+
+.form__checkbox {
+  background-color: #2f80ed;
+  border-radius: 2px;
+  margin-right: 12px;
+  vertical-align: middle;
+  width:20px;
+  height:20px;
+}
+
+.form__label[type="checkbox"] {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 32px;
+  margin-bottom: 120px;
+}

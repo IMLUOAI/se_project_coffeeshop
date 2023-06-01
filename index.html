@@ -11,7 +11,6 @@
     <meta name="author" content="Samule Luo" />
     <title>Coffeeshop Demo</title>
     <link rel="shortcut icon" href="favicon.icon" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -178,10 +177,106 @@
             </fieldset>
           </form>
         </section>
-        <section id="menu-menu" class="menu"></section>
-        <section id="about-contacts" class="about"></section>
+        <section id="menu-menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <h3 class="menu__subtitle">
+            We brew coffe from locally roasted, Fairtrade certified beans and
+            use biodegradable cups.All teas from our collection are $2/cup
+          </h3>
+          <div class="menu__cards">
+            <div class="cards">
+              <div class="card__title">Filter</div>
+              <li class="card__list-item">
+                Regular<span class="card__list-divider"></span>$1
+              </li>
+              <li class="card__list-item">
+                Large(16 oz)<span class="card__list-divider"></span>$1.25
+              </li>
+              <li class="card__list-item">
+                XL. (20 oz)<span class="card__list-divider"></span>$1.5
+              </li>
+              <li class="card__list-item">
+                Party-size (24 oz, decaf)<span class="card__list-divider"></span
+                >$1.75
+              </li>
+              <li class="card__list-item">
+                Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25
+              </li>
+            </div>
+            <div class="cards">
+              <div class="card__title">Espresso</div>
+              <li class="card__list-item">
+                Macchiato<span class="card__list-divider"></span>$2.25
+              </li>
+              <li class="card__list-item">
+                Cortado<span class="card__list-divider"></span>$2.5
+              </li>
+              <li class="card__list-item">
+                Mocha<span class="card__list-divider"></span>$3
+              </li>
+              <li class="card__list-item">
+                Sunrise in the Bay Area (decaf)<span
+                  class="card__list-divider"
+                ></span
+                >$10
+              </li>
+            </div>
+            <div class="cards">
+              <div class="card__title">Baked Goods</div>
+              <li class="card__list-item">
+                Almond Croissant<span class="card__list-divider"></span>$2
+              </li>
+              <li class="card__list-item">
+                Banana<span class="card__list-divider"></span>$1.75
+              </li>
+              <li class="card__list-item">
+                key Lime Pie<span class="card__list-divider"></span>$3
+              </li>
+              <li class="card__list-item">
+                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+              </li>
+              <li class="card__list-item">
+                Web Cookie<span class="card__list-divider"></span>$2
+              </li>
+              <li class="card__list-item">
+                Fresh Bug's uette<span class="card__list-divider"></span>$0.25
+              </li>
+            </div>
+          </div>
+        </section>
+        <section id="about-contacts" class="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is locally in the practicum Library's hall, it
+              features 6 tables and free WiFi
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environment impact--so we don't
+              sell single-use cups. But you can buy one of our reusable cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <logo class="footer__logo">Practicum</logo>
+          <div class="footer__social-heading"></div>
+          <ls class="footer__list">
+            <div class="footer__social-icon" src="" alt=""></div>
+            <a class="footer__social-link" href="">Facebook</a>
+          </ls>
+          <ls class="footer__list">
+            <div class="footer__social-icon" src="" alt=""></div>
+            <a class="footer__social-link" href="">Instagram</a>
+          </ls>
+        </div>
+        <div class="footer__copyright">& 2022 Samuel Luo</div>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>
