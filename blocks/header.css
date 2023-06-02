@@ -44,6 +44,10 @@
   line-height: 20px;
 }
 
+.nav__link:hover {
+   color: #2F80ED;
+}
+
 .header__span-accent {
   font-family: "Noto Serif", Times, serif;
   font-style: italic;
