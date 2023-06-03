@@ -1,0 +1,76 @@
+
+.about {
+  height: 50vh;
+  background-color: #0A2850;
+  position: relative;
+  z-index:0;
+  overflow: hidden;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffff;
+  max-width: 251px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  z-index: 2;
+
+}
+
+.about__content {
+ position: absolute;
+ top: 119px;
+ right: 80px;
+ bottom: 173px;
+
+
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: #ffff;
+      max-width: 660px;
+      display: flex;
+ flex-direction: column;
+ row-gap: 20px;
+ padding: 0;
+}
+
+.about__circle {
+background-color: #2f80ed;
+width: 426px;
+height: 426px;
+border-radius: 50%;
+position: absolute;
+top: -152px;
+left: -129px;
+z-index: 1;
+
+}
+
+.about__circle_animation_blurred {
+  animation:  pulstate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulstate {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+      opacity: 0.6;
+    }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
