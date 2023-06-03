@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .menu__title {
@@ -22,19 +21,19 @@
   margin: 100px auto 0;
   max-width: 780px;
   text-align: center;
-  padding: 3px;
+  padding: 5px;
 }
 
 .menu__subtitle {
   font-family: "Noto Serif";
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
   margin: 24px auto 0;
   max-width: 780px;
   text-align: center;
-  padding: 3px;
+  padding: 5px;
 }
 
 .menu__cards {
@@ -43,8 +42,7 @@ line-height: 30px;
   flex-direction: row;
   justify-content: center;
   margin: 100px auto 100px;
-
-
+  box-sizing: border-box;
 }
 
 .card {
@@ -52,7 +50,6 @@ line-height: 30px;
   padding: 5px;
   display:flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
 }
 
 .card:nth-of-type(2n) {
@@ -61,7 +58,6 @@ line-height: 30px;
   display:flex;
   flex-direction: column;
   margin-left: 100px;
-  /*border: 1px solid red;*/
 }
 
 .card:nth-of-type(3n) {
@@ -70,42 +66,35 @@ line-height: 30px;
   display:flex;
   flex-direction: column;
   margin-top: 100px;
- /* border: 1px solid red;*/
 }
 
 .card__title {
   font-family: "Inter";
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
-margin-bottom: 32px;
-
-
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 0;
+  margin-bottom: 32px;
+  padding: 2px;
 }
 
 .card__list-item {
   font-family: "Noto Serif";
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-position: relative;
-list-style-type: none;
-margin-top: 16px;
-display: flex;
-justify-content: space-between;
-
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.card__list-divider::after {
-  content: '';
-  position: absolute;
-  bottom: 1px;
-  right:0;
-  width:100%;
+.card__list-divider {
+  display: inline-block;
+  flex-grow: 1;
   border-bottom: 1px solid #000;
   padding: 5px;
-
+  margin: 5px;
 }
