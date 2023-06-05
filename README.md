@@ -7,6 +7,7 @@ This is the second project of the Web Development program at Practicum. It was c
 - Semantic HTML5
 - Flexbox
 - Positioning
+- Z-index vertical stacking
 - Flat BEM
 - A custom form
 - CSS animation and transform

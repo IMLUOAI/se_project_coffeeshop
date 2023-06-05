@@ -9,44 +9,7 @@
   box-sizing: border-box;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-}
 
-.logo{
-  width: 125px;
-  height: 142px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
-
-.nav__links{
-  display: flex;
-  align-items: center;
-  position: absolute;
-  justify-content: space-between;
-  right: 80px;
-  top: 20px;
-  column-gap: 20px;
-  list-style-type: none;
-  padding: 0px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: 500;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__link:hover {
-   color: #2F80ED;
-}
 
 .header__span-accent {
   font-family: "Noto Serif", Times, serif;

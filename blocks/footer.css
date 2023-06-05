@@ -1,10 +1,12 @@
 .footer {
   height: 35vh;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   margin: 0;
   border-top: 1px solid #C1C1C1;
+  position: relative;
 }
 
 .footer__content {
@@ -14,6 +16,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
+  padding: 0;
 }
 
 .footer__logo {
@@ -47,10 +50,12 @@
 
 .footer__list-item {
   margin: auto;
+  list-style-type: none;
 }
 
 .footer__list-item:last-of-type {
   margin-top: 16px;
+  list-style-type: none;
 }
 
 .footer__social-icon {
@@ -79,7 +84,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  margin: 108px 0 60px 80px;
+  position: absolute;
+  left: 80px;
+  bottom: 60px;
+  padding: 0;
 }
 
 
