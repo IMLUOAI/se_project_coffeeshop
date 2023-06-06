@@ -1,5 +1,4 @@
 .menu{
-  height: 100vh;
   background-color: #fff;
   background-image: url("../images/background_menu.svg");
   background-size: cover;
@@ -13,7 +12,7 @@
 }
 
 .menu__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, 'sans-serif';
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -25,7 +24,7 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif";
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
