@@ -10,7 +10,7 @@
   margin: 30px 80px 0 auto;
   column-gap: 20px;
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .nav__link {
