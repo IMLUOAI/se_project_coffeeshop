@@ -65,4 +65,7 @@
   margin: 0 auto 20px 0;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
 

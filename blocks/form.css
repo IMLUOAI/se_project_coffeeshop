@@ -31,7 +31,7 @@
 }
 
 .form__button {
-  font-family: "Inter" ;
+  font-family: "Inter", Arial, 'sans-serif';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -71,14 +71,7 @@
   height:20px;
 }
 
-.form__label[type="checkbox"] {
-  font-family: "Inter", Arial, 'sans-serif';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+.form__label_type_checkbox {
   display: inline;
-  vertical-align: middle;
-  margin-top: 32px;
   margin-bottom: 120px;
 }

@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   padding: 0;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -39,12 +40,11 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px auto 0 80px;
-  margin-top: 28px;
   max-width: 683px;
 }
 
 .header__image {
-  z-index: 0;
+  z-index: -1;
   max-width: 646px;
   max-height: 568px;
   position: absolute;
